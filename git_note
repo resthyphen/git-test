@@ -1,0 +1,162 @@
+       git add .
+  427  git commit -m "add files"
+  428  man git
+  429  git config user.name "resthyphen"
+  430  git commit -m "add files"
+  431  git config --global user.name "sheep"
+  432  git config --global user.name "sheep"
+  433  git commit -m "add files"
+  434  git config --global user.email "you@example.com"
+  435  git commit -m "add files"
+  436  git remote add origin https://github.com/resthyphen/cpp_primer.git
+  437  git push --set-upstream origin main
+  438  git config user.email "youngdiao@gmail.com"
+  439  git config user.name "resthyphen"
+  440  git commit -m "add files"
+  441  git remote add origin https://github.com/resthyphen/cpp_primer.git
+  442  git push --set-upstream origin main
+  443  git push --set-upstream origin master
+  444  git status
+  445  git push --set-upstream origin master
+  446  git push --set-upstream origin master
+  447  gh
+  448  git push --set-upstream origin master
+  449  git push --set-upstream origin main
+  450  git branch
+  451  git branch
+  452  git status
+  453  git push  origin main
+  454  git config -get
+  455  git config -get user.name
+  456  git config --get user.name
+  457  git config --get user.email
+  458  git config user.email "ycad@email.com"
+  459  git config --get user.email
+  460  git config user.name "sheep"
+  461  git config --get user.name
+  462  git push --set-upstream origin main
+  463  git push --set-upstream origin master
+  464  git push --set-upstream origin master
+  465  git push --set-upstream origin master
+  466  git config --list
+  467  git branch
+  468  git checkout
+  469  git checkout main
+  470  git config --global init.defaultBranch main
+  471  git push --set-upstream origin main
+  472  git push origin main
+  473  git branch
+  474  git checkout main
+  475  git branch --list
+  476  git pull
+  477  git branch --list
+  478  git branch -r
+  479  git status
+  480  git checkout main
+  481  git branch
+  482  git checkout master
+  483  ls
+  484  git checkout main
+  485  ls
+  486  git checkout master
+  487  touch README.md
+  488  vim README.md 
+  489  git add README.md 
+  490  git commit -m "content of README.md"
+  491  git remote add origin https://github.com/resthyphen/cpp_primer.git
+  492  git push origin master
+  493  git pull
+  494  git checkout main
+  495  git merge master
+  496  git branch
+  497  git merge master
+  498  git merge 
+  499  sensors
+  500  startx
+  501  git branch
+  502  git merge master
+  503  git pull origin master --allow-unrelated-histories
+  504  git pull origin main --allow-unrelated-histories
+  505  git merge master
+  506  git merge --continue master
+  507  git merge --continue master
+  508  git merge --continue 
+  509  git branch
+  510  git checkout main
+  511  git branch
+  512  git pull
+  513  git checkout master
+  514  git merge master
+  515  git add README.md
+  516  git commit -m "my snapshot"
+  517  git push --set-upstream origin main
+  518  git push --set-upstream origin main
+  519  git push --set-upstream origin main
+  520  git push --set-upstream origin main
+  521  git push --set-upstream origin main
+  522  git push --set-upstream origin main
+  523  ping https://github.com/resthyphen/cpp_primer.git
+  524  ping github.com/resthyphen/cpp_primer.git
+  525  ping github.com
+  526  curl github.com
+  527  curl github.com
+  528  ping github.com/resthyphen/cpp_primer.git
+  529  git push  origin main
+  530  git merge master
+  531  git checkout master
+  532  vim README.md 
+  533  git add README.md 
+  534  git commit -m "edited README.md"
+  535  git push origin master
+  536  git checkout main
+  537  git merge master
+  538  git branch
+  539  git checkout master
+  540  git status
+  541  git-branch
+  542  git status
+  543  git merge --abort
+  544  git status
+  545  git checkout master
+  546  git merge main
+  547  vim README.md 
+  548  git merge main
+  549  vim README.md 
+  550  git add 
+  551  git add .
+  552  git commit -m "Resolved merge conflict by incorporating both suggestions."
+  553  git merge main
+  554  git push -u origin master
+  555  git merge main
+  556  git branch
+  557  git pull orgin main
+  558  git checkout main
+  559  git merge master
+  560  git push origin main
+
+> …or create a new repository on the command line
+echo "# git-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/resthyphen/git-test.git
+git push -u origin main
+
+> …or push an existing repository from the command line
+git remote add origin https://github.com/resthyphen/git-test.git
+git branch -M main
+git push -u origin main
+ 
+  //rename a branch
+  566  git checkout master
+  567  git branch -m master sub-branch
+  568  git fetch origin
+  569  git branch -u origin/sub-branch sub-branch
+  570  git remote set-head origin -a
+
+
+  //create a branch
+    git branch test-branch
+    git push origin test-branch
+    git branch --set-upstream-to=origin/test-branch test-branch
